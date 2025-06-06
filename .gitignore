@@ -1,7 +1,17 @@
-_pycache_/
+__pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
 .env
 *.env
+
+# Secret config
 .secrets/
 .streamlit/secrets.toml
-venv/
+
+# OS-specific
+.DS_Store
+Thumbs.db
